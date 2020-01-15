@@ -1,4 +1,5 @@
 *.crx
+*.zip
 build/js/
 
 # Created by https://www.gitignore.io/api/node
