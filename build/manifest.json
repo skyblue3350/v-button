@@ -16,8 +16,7 @@
                 "*://vampsasha.starfree.jp/",
                 "*://kanae.starfree.jp/",
                 "*://928button.tudura.com/",
-                "*://ushiumi.ichiya-boshi.net/",
-                "*://himawari.live/"
+                "*://ushiumi.ichiya-boshi.net/"
             ],
             "js": ["js/content.js"]
         }
