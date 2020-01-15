@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 module.exports = {
     entry: {
         popup: path.join(__dirname, 'src/popup/index.tsx'),
-        background: path.join(__dirname, 'src/background/index.ts'),
+        content: path.join(__dirname, 'src/content/index.ts'),
     },
     output: {
         path: path.join(__dirname, 'build/js'),

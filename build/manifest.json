@@ -1,7 +1,7 @@
 {
-    "name": "v-button repeater",
-    "short_name": "v-button repeater",
-    "description": "repeat button playback",
+    "name": "v-button",
+    "short_name": "v-button",
+    "description": "Vのボタンを自動再生します",
     "version": "1.0.0",
     "manifest_version": 2,
     "icons": {
@@ -9,9 +9,19 @@
         "48": "icon.png",
         "128": "icon.png"
     },
-    "background": {
-        "scripts": ["js/background.js"]
-    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.natorisana.love/",
+                "*://vampsasha.starfree.jp/",
+                "*://kanae.starfree.jp/",
+                "*://928button.tudura.com/",
+                "*://ushiumi.ichiya-boshi.net/",
+                "*://himawari.live/"
+            ],
+            "js": ["js/content.js"]
+        }
+    ],
     "browser_action": {
         "default_title": "",
         "default_popup": "popup.html"
